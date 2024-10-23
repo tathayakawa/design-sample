@@ -1,0 +1,21 @@
+/* eslint-disable */ 
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es5",
+    "strict": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "outDir": "public/dist/",
+  },
+  "exclude": [
+      "node_modules"
+  ]
+}
